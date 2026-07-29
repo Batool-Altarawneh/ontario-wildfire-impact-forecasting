@@ -1,0 +1,15 @@
+date,time,aqhi,category,city,station_name,station_id,requested_year,value_type,show_day_code,aqhi_raw,aqhi_is_10_plus,aqhi_numeric,actual_year
+2025-01-01,1:00 am EST,2,low risk,Barrie,Barrie,47045,2024,daily_max,2,2,False,2.0,2025
+2026-01-01,1:00 am EST,2,low risk,Barrie,Barrie,47045,2025,daily_max,2,2,False,2.0,2026
+2025-01-01,1:00 am EST,2,low risk,Kingston,Kingston,52023,2024,daily_max,2,2,False,2.0,2025
+2026-01-01,8:00 pm EST,3.0,low risk,Kingston,Kingston,52023,2025,daily_max,2,3.0,False,3.0,2026
+2025-01-01,1:00 am EST,1,low risk,Thunder Bay,Thunder Bay,63200,2024,daily_max,2,1,False,1.0,2025
+2026-01-01,1:00 am EST,2,low risk,Thunder Bay,Thunder Bay,63200,2025,daily_max,2,2,False,2.0,2026
+2025-01-01,1:00 am EST,2.0,low risk,Toronto,Toronto Downtown,31129,2024,daily_max,2,2.0,False,2.0,2025
+2026-01-01,1:00 am EST,3,low risk,Toronto,Toronto Downtown,31129,2025,daily_max,2,3,False,3.0,2026
+2025-01-01,1:00 am EST,2.0,low risk,Toronto,Toronto East,33003,2024,daily_max,2,2.0,False,2.0,2025
+2026-01-01,4:00 am EST,3,low risk,Toronto,Toronto East,33003,2025,daily_max,2,3,False,3.0,2026
+2025-01-01,1:00 am EST,2.0,low risk,Toronto,Toronto North,34021,2024,daily_max,2,2.0,False,2.0,2025
+2026-01-01,4:00 am EST,3,low risk,Toronto,Toronto North,34021,2025,daily_max,2,3,False,3.0,2026
+2025-01-01,1:00 am EST,2.0,low risk,Toronto,Toronto West,35125,2024,daily_max,2,2.0,False,2.0,2025
+2026-01-01,1:00 am EST,3,low risk,Toronto,Toronto West,35125,2025,daily_max,2,3,False,3.0,2026
