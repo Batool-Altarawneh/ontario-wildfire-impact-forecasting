@@ -2,10 +2,10 @@
 
 ## Project Charter
 
-**Status:** Draft version 0.1  
+**Status:** Draft version 0.2 
 **Project type:** Academic and Independent Project  
 **Author:** Batool Altarawneh  
-**Date:** July 2026
+**Date:** August 2026
 
 ## 1. Problem Statement
 
@@ -264,8 +264,26 @@ The project will be complete when all of the following conditions are met.
 
 **Reason:** This provides a fair standard for evaluating whether the LSTM adds value.
 
+### Decision 6
+
+**Date:** August 3, 2026
+
+**Decision:** Sprint 1 was extended to August 21, 2026, and the Airflow DAG work was moved from Sprint 1 to Sprint 2.
+
+**Reason:** Data-source extraction and validation required more investigation than originally estimated. The remaining star-schema design, transformation, PostgreSQL loading, data-quality validation, and exploratory analysis could not be completed responsibly by the original August 5 deadline. Airflow automation is logically separable from the usable data foundation, because the extraction scripts can be run manually while the database and baseline models are developed.
+
 ## 14. Next Step
 
-The next step is to begin the data foundation sprint.
+The next step is to complete the remaining Sprint 1 data-foundation work by August 21, 2026.
 
-The first task is to confirm that Kingston's AQHI station provides enough historical data for model training and evaluation. After that check is complete, the project can move to source extraction, schema design, ETL development, database loading, exploratory analysis, and Airflow scheduling.
+The immediate priorities are:
+
+1. Complete and document the evacuation event log.
+2. Extract and validate hourly ECCC weather data for the four selected cities.
+3. Design and implement the PostgreSQL star schema.
+4. Consolidate the extraction, cleaning, and transformation workflow.
+5. Load the validated data into PostgreSQL.
+6. Complete the exploratory data analysis and the initial wildfire–AQHI relationship review.
+7. Consolidate the data-source and column documentation.
+
+The Airflow DAG has been moved to Sprint 2 and will be implemented after the standalone data pipeline is stable
